@@ -1,0 +1,30 @@
+{
+    "name": "@etcher/plugin-preprocess",
+    "version": "1.0.0",
+    "description": "Use scss, less, or stylus in your etcher components",
+    "main": "src/index.js",
+    "author": "TheCommieAxolotl",
+    "type": "module",
+    "license": "MIT",
+    "devDependencies": {
+        "sass": "^1.57.1",
+        "stylus": "^0.59.0",
+        "less": "^4.0.0"
+    },
+    "peerDependencies": {
+        "sass": "^1.57.1",
+        "stylus": "^0.59.0",
+        "less": "^4.0.0"
+    },
+    "peerDependenciesMeta": {
+        "scss": {
+            "optional": true
+        },
+        "stylus": {
+            "optional": true
+        },
+        "less": {
+            "optional": true
+        }
+    }
+}
