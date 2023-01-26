@@ -42,6 +42,8 @@ export const preprocess = () => {
                         retValue = retValue.replace(tag, `<style>${css}</style>`);
                     }
                 }
+
+                return retValue;
             },
             processComponent: async (component) => {
                 let retValue = component;
