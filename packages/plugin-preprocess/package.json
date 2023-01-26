@@ -1,6 +1,6 @@
 {
     "name": "@etcher/plugin-preprocess",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Use scss, less, or stylus in your etcher components",
     "main": "src/index.js",
     "author": "TheCommieAxolotl",
