@@ -1,4 +1,4 @@
-import { getTags } from "./tags.js";
+import { getTags } from "./tags.mjs";
 
 export const preprocess = () => {
     return {
@@ -20,19 +20,19 @@ export const preprocess = () => {
                         switch (lang) {
                             case "scss":
                             case "sass":
-                                const scss = await import("./transform/scss.js");
+                                const scss = await import("./transform/scss.mjs");
 
                                 css = scss.transform(content);
 
                                 break;
                             case "stylus":
-                                const stylus = await import("./transform/stylus.js");
+                                const stylus = await import("./transform/stylus.mjs");
 
                                 css = stylus.transform(content);
 
                                 break;
                             case "less":
-                                const less = await import("./transform/less.js");
+                                const less = await import("./transform/less.mjs");
 
                                 css = await less.transform(content);
 
@@ -61,19 +61,19 @@ export const preprocess = () => {
                         switch (lang) {
                             case "scss":
                             case "sass":
-                                const scss = await import("./transform/scss.js");
+                                const scss = await import("./transform/scss.mjs");
 
                                 css = scss.transform(content);
 
                                 break;
                             case "stylus":
-                                const stylus = await import("./transform/stylus.js");
+                                const stylus = await import("./transform/stylus.mjs");
 
                                 css = stylus.transform(content);
 
                                 break;
                             case "less":
-                                const less = await import("./transform/less.js");
+                                const less = await import("./transform/less.mjs");
 
                                 css = await less.transform(content);
 

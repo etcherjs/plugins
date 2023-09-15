@@ -2,7 +2,7 @@
     "name": "@etcher/plugin-preprocess",
     "version": "1.0.2",
     "description": "Use scss, less, or stylus in your etcher components",
-    "main": "src/index.js",
+    "main": "src/index.mjs",
     "author": "TheCommieAxolotl",
     "type": "module",
     "license": "MIT",
